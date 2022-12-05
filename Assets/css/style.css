@@ -133,7 +133,6 @@ li a{
     justify-content: space-around;
     width: 80%;
     height: 30%;
-    /* background-color: purple; */
 }
 
 .tendence .box-tow{
@@ -141,14 +140,12 @@ li a{
     justify-content: space-around;
     width: 80%;
     height: 30%;
-    /* background-color: black; */
 }
 .tendence .box-three{
     display: flex;
     justify-content: space-around;
     width: 80%;
     height: 30%;
-    /* background-color: orange; */
 }
 
 
