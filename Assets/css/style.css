@@ -212,3 +212,36 @@ li a{
     border-radius: 6px;
     border: none;
 }
+.pre-order{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.pre-order-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.pre-order-1 img{
+    padding: 25px;
+    height: 300px;
+}
+
+.pre-order-2{
+    display: flex;
+    justify-content: center;
+}
+
+.pre-order-2 img{
+    padding: 25px;
+    height: 300px;
+}
+.préco{
+    display: flex;
+    color:#3483FF;
+    
+}
