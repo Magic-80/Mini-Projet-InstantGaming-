@@ -27,11 +27,16 @@ body{
 
 }
 
+
+li{
+    margin: 0 25px;
+}
+
 ul{
     display: flex;
     padding-top: 15px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 
@@ -133,6 +138,7 @@ li a{
     justify-content: space-around;
     width: 80%;
     height: 30%;
+    /* background-color: purple; */
 }
 
 .tendence .box-tow{
@@ -158,12 +164,17 @@ li a{
 }
 .avis-bg{
     background: url("../img/background.png") center center no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .avis-content{
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .avis-com{
     background-color: #101010;
