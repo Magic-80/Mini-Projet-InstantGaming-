@@ -191,15 +191,20 @@ li a{
 }
 .promo-svg{
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 .promo-text1{
     color: white;
     font-weight: bold;
+    padding-bottom: 1%;
 }
 .promo-text2{
     color: #909090;
+    padding-bottom: 1%;
 }
 .button{
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #FF5400;
     color: white;
     font-weight: bold;
