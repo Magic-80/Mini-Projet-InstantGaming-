@@ -12,21 +12,18 @@ body{
 
 .header{
     width: 100vw;
-    height: 80vh;
-    background-color: black;
+    height: 60vh;
     background: url(/Assets/img/Img-header.jpg);
-    clip-path: polygon(51% 0, 100% 0, 100% 83%, 0 75%, 0% 60%, 0 0);
+    background-repeat: repeat-x;
 }
   
-.navbar{
+.nav-bar{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    box-sizing: border-box;
-
 }
-
 
 li{
     margin: 0 25px;
@@ -34,8 +31,7 @@ li{
 
 ul{
     display: flex;
-    padding-top: 15px;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -48,18 +44,14 @@ li a{
 
 .menu-navigation{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 0px 0px 0px 31px;
-    gap: 25px;
-
     position: absolute;
-    width: 25%;
-    height: 7%;
-    left: 700px;
-    top: 70px;
-
+    width: 30vw;
+    height: 7vh;
+    left: 35%;
+    top: 7%;
     background: rgba(39, 39, 39, 0.6);
     backdrop-filter: blur(12px);
     border-radius: 63px;
@@ -68,37 +60,42 @@ li a{
 .logo-support{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0px;
-    gap: 18px;
-    position: absolute;
-    right: 50px;
-    top: 20px;
+    padding-right: 120px;
 }
 
 .logo-instant-gaming{
-    position: absolute;
-    left: 2.53%;
-    right: 89.47%;
-    top: 15px;
-    bottom: 98.19%;
+    display: flex;
+    flex-flow: row;
+    padding-left: 10px;
 }
 
 .title{
-    position: absolute;
-    left: 150px;
-    top: 295px;
+    padding-top: 250px;
+    padding-left: 150px;
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;    
 }
 
-.prix{
+.prix {
     display: flex;
-    background-color: #FF5400;
-    width: 20%;
-    height: 25%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: auto;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-size: 35px;
+    
+}
+
+.prix span{
+  width: 3vw;
+  height: auto;
+  background-color: #FF5400;
+  font-size: 18px;
+  
 }
 
 /* ---------------Tendence------------------ */
@@ -110,7 +107,6 @@ li a{
     padding-top: 50px;
     width: 100vw;
     height: 80vh;
-    /* background-color :blue; */
 }
 
 .tendence .texte{
@@ -140,7 +136,6 @@ li a{
     justify-content: space-around;
     width: 80%;
     height: 30%;
-    /* background-color: purple; */
 }
 
 .tendence .box-tow{
@@ -157,16 +152,48 @@ li a{
 }
 
 
+/* ------------------Partie Punchline------------------ */
 
 
-/*Partie Avis*/
+.punchline{
+    background-color: purple;
+    width: 100vw;
+    height: 20vh;
+}
+.punchline-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.punchline-content-1{
+    background-color: #FF5400;
+    width: 25vw;
+    height: 20vh;
+}
+.punchline-content-2{
+    background-color: beige;
+    width: 25vw;
+    height: 20vh;
+}
+.punchline-content-3{
+    background-color: blue;
+    width: 25vw;
+    height: 20vh;
+}
+
+
+
+
+/*--------------------------Partie Avis--------------------------*/
 .avis-text{
     color: #FFFFFF;
     font-weight: bold;
     padding-top: 25px;
 }
 .avis-bg{
-    background: url("../img/background.png") center center no-repeat;
+    background: url("../img/background/background.png") center center no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -178,9 +205,10 @@ li a{
     align-items: center;
     text-align: center;
     justify-content: center;
+
 }
+
 .avis-com{
-    background-color: #101010;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 1%;
