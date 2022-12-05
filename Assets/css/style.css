@@ -161,6 +161,7 @@ li a{
 .avis-text{
     color: #FFFFFF;
     font-weight: bold;
+    padding-top: 25px;
 }
 .avis-bg{
     background: url("../img/background.png") center center no-repeat;
