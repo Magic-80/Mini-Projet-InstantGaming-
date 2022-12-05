@@ -150,13 +150,17 @@ li a{
     height: 30%;
     /* background-color: orange; */
 }
+
+
+
+
 /*Partie Avis*/
 .avis-text{
     color: #FFFFFF;
     font-weight: bold;
 }
 .avis-bg{
-    background: url("../img/background.png") center center no-repeat #FFFFFF fixed;
+    background: url("../img/background.png") center center no-repeat;
 }
 .avis-content{
     padding: 30px;
