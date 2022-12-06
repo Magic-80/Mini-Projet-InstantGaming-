@@ -1,3 +1,86 @@
-@media screen and (min-width:360px) and (max-width:966px){
+@media screen and (min-width:360px) and (max-width:966px) {
     
+    .header {
+        width: 100vw;
+        height: 60vh;
+        background: url(/Assets/img/Img-header.jpg);
+        background-repeat: repeat-x;
+        background-position: center;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .logo-support {
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+    }
+
+    .logo-instant-gaming {
+        display: flex;
+        flex-flow: row;
+        padding-left: 0px;
+    }
+
+    .menu-navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 80vw;
+        height: 7vh;
+        left: 13%;
+        top: 7%;
+        background: rgba(39, 39, 39, 0.6);
+        backdrop-filter: blur(12px);
+        border-radius: 63px;
+    }
+
+    .title {
+        padding-top: 250px;
+        padding-left: 20px;
+        color: white;
+        font-size: 25px;
+        font-family: Arial, 
+    }
+
+    .prix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35vw;
+        height: auto;
+        line-height: 60px;
+        color: #FFFFFF;
+        font-size: 35px;
+    }
+
+    .tendence .texte{
+        font-size: 35px;
+    }
+
+
+    .tendence .box{
+        display: flex;
+        padding-top: 20px;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-left: 50px;
+    }
+
+    .tendence .box-one{
+        width: 100%;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .tendence .box-one img{
+        width: 90%;
+    }
+
 }

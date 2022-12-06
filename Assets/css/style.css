@@ -3,11 +3,14 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #272727;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
 }
 
 .header{
@@ -15,6 +18,9 @@ body{
     height: 60vh;
     background: url(/Assets/img/Img-header.jpg);
     background-repeat: repeat-x;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 98%, 0 0);
+    background-size: cover;
+
 }
   
 .nav-bar{
@@ -55,12 +61,13 @@ li a{
     background: rgba(39, 39, 39, 0.6);
     backdrop-filter: blur(12px);
     border-radius: 63px;
+    color: white;
 }
 
 .logo-support{
     display: flex;
     flex-direction: row;
-    padding-right: 120px;
+    padding-right: 90px;
 }
 
 .logo-instant-gaming{
@@ -71,7 +78,7 @@ li a{
 
 .title{
     padding-top: 250px;
-    padding-left: 150px;
+    padding-left: 100px;
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;    
@@ -122,8 +129,6 @@ li a{
 .tendence-button a{
    color: white;
 }
-
-
 
 .tendence .box{
     padding-top: 20px;
@@ -182,19 +187,74 @@ li a{
 }
 
 .punchline-content-1{
-    background-color: white;
     width: 25vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.punchline-content-logo-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.punchline-content-logo-1 p{
+   font-size: 25px;
+   text-align: center;
+   color: white;
+}
+
 .punchline-content-2{
-    background-color: beige;
     width: 25vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.punchline-content-logo-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.punchline-content-logo-2 p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+ }
+ 
+
 .punchline-content-3{
-    background-color: blue;
     width: 25vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punchline-content-logo-3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.punchline-content-logo-3 p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+ }
+
+ .punchline-content-4{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 20vh;
+    align-items: center;
 }
 
 /* ------------------Fin Partie Punchline------------------ */

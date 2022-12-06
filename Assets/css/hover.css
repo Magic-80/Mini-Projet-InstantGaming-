@@ -2,7 +2,7 @@
     transition: all 0.3s;
 }
 .tendence .box-one:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .tendence .box-two{
@@ -10,5 +10,5 @@
 }
 
 .tendence .box-two:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
