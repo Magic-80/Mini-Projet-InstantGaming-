@@ -104,59 +104,73 @@ li a{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
     width: 100vw;
-    height: 80vh;
+    padding-bottom: 50px;
 }
 
 .tendence .texte{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 30px;
+    width: 100vw;
+    height: auto;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
 }
-.tendence-button{
-    width: 85px;
-    height: 40px;
-    top: calc(50% - 40px/2);
-    background: #3D3D3D;
-    border-radius: 35px;
-    
-}
+
 
 .tendence-button a{
    color: white;
 }
 
+
+
+.tendence .box{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
 .tendence .box-one{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 30%;
+    padding-left: 40px;
+    width: 55%;
 }
 
-.tendence .box-tow{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 30%;
-}
-.tendence .box-three{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 30%;
+.tendence .box-two{
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: flex-start;
+   align-items: center;
 }
 
+.tendence .box-one .title-box-one{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+
+.tendence .title-box-two-img-one{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.tendence .title-box-two-img-two{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
 
 /* ------------------Partie Punchline------------------ */
 
 
 .punchline{
-    background-color: purple;
+    background-color: black;
     width: 100vw;
     height: 20vh;
 }
@@ -168,7 +182,7 @@ li a{
 }
 
 .punchline-content-1{
-    background-color: #FF5400;
+    background-color: white;
     width: 25vw;
     height: 20vh;
 }
@@ -183,6 +197,7 @@ li a{
     height: 20vh;
 }
 
+/* ------------------Fin Partie Punchline------------------ */
 
 
 
