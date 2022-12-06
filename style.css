@@ -237,10 +237,13 @@ li a{
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
-    padding-left: 1%;
     padding-top: 1%;
 }
 .avis-boxtext{
+    padding-top: 15%;
+    color: #909090;
+}
+.avis-boxtext2{
     padding-top: 20%;
 }
 
@@ -262,6 +265,9 @@ li a{
 .promo-text2{
     color: #909090;
     padding-bottom: 1%;
+}
+.button-box{
+    padding-top: 5%;
 }
 .button{
     background-color: #FF5400;
