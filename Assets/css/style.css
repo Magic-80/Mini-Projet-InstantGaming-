@@ -223,7 +223,7 @@ li a{
 
 }
 
-.avis-com{
+.avis-line{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 1%;
@@ -236,9 +236,12 @@ li a{
     background: #323232;
     border-radius: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-left: 1%;
     padding-top: 1%;
+}
+.avis-boxtext{
+    padding-top: 20%;
 }
 
 /*Partie Offre/Promo*/
@@ -247,7 +250,7 @@ li a{
     text-align: center;
     padding-bottom: 1%;
 }
-.promo-svg{
+.promo-vector{
     padding-top: 1%;
     padding-bottom: 1%;
 }
