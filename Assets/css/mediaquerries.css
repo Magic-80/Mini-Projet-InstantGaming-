@@ -82,5 +82,7 @@
     .tendence .box-one img{
         width: 90%;
     }
-
+    .avis-bg img{
+        display: none;
+    }
 }
