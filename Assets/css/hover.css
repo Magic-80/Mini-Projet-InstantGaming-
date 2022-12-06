@@ -1,0 +1,14 @@
+.tendence .box-one {
+    transition: all 0.3s;
+}
+.tendence .box-one:hover {
+    transform: scale(1.2);
+}
+
+.tendence .box-two{
+    transition: all 0.3s;
+}
+
+.tendence .box-two:hover {
+    transform: scale(1.2);
+}
