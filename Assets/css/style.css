@@ -284,6 +284,66 @@ li a{
 
 /* ------------------Fin Partie Punchline------------------ */
 
+/* ------------------Partie precommande ----------------------*/
+
+.precommande{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 40px;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.precommande .texte-preco{
+    width: 100vw;
+    height: auto;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.precommande .box-preco{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+
+.precommande .box-one-preco{
+    padding-left: 40px;
+    width: 90%;
+}
+
+.precommande .box-two-preco{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.precommande .box-one-preco .title-box-preco-one{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+
+.precommande .title-box-preco-two-img-one{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.precommande .title-box-preco-two-img-two{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
 
 
 /*--------------------------Partie Avis--------------------------*/

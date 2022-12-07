@@ -68,15 +68,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 35vw;
+        width: 50%;
         height: auto;
         line-height: 60px;
         color: #FFFFFF;
-        font-size: 35px;
+        font-size: 35px;        
     }
 
-    .tendence .texte{
-        font-size: 35px;
+    .tendence .texte-tendence{
+        font-size: 30px;
     }
 
 
@@ -87,7 +87,6 @@
         justify-content: center;
         align-items: center;
         width: 80%;
-        padding-left: 50px;
     }
 
     .tendence .box-one{
@@ -99,6 +98,7 @@
         width: 90%;
     }
 
+<<<<<<< Updated upstream
     .avis-bg img{
         display: none;
     }
@@ -125,4 +125,58 @@
     .oslogo{
         width: 100%;
     }
+=======
+    .punchline {
+        background-color: black;
+        width: 100vw;
+        height: auto;
+    }
+
+    .punchline-content {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .avis-bg img{
+        display: none;
+    }
+
+
+    .precommande .texte-preco{
+        font-size: 30px;
+    }
+
+
+    .precommande .box-preco{
+        display: flex;
+        padding-top: 20px;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .precommande .box-one-preco{
+        width: 90%;
+        padding-left: 55px;
+
+    }
+
+    .precommande .box-two-one{
+        width: 100vw;
+    }
+
+    .precommande .box-tow-preco-content-one{
+        display: flex;
+        justify-content: center;
+    }
+
+    .precommande .box-tow-preco-content-one img{
+        width: 65%;
+    }
+
+
+>>>>>>> Stashed changes
 }
