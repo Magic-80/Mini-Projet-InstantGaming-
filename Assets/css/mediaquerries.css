@@ -12,7 +12,6 @@
         display: none;
     }
 
-
     .logo-support {
         display: flex;
         flex-direction: row;
@@ -38,6 +37,7 @@
         background: rgba(39, 39, 39, 0.6);
         backdrop-filter: blur(12px);
         border-radius: 63px;
+        padding-right: 15px;
     }
 
     .menu-navigation .text-menu-navigation-pc {
@@ -52,18 +52,14 @@
     .menu-navigation .switch .text-menu-navigation-switch{
         display: none;
     }
-
     
     .menu-navigation img{
         display: none;
     }
 
-    
-
     .menu-navigation .button-recherce {
         display: none;
     }
-
     
     .menu-navigation .text-menu-navigation-responzive-tendence{
         display: block;
@@ -74,7 +70,6 @@
     .menu-navigation .text-menu-navigation-responzive-support{
         display: block;
     }
-
 
     .title {
         padding-top: 250px;
@@ -117,7 +112,6 @@
     .tendence .box-one img{
         width: 90%;
     }
-
 
     .avis-bg img{
         display: none;

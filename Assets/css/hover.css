@@ -19,3 +19,31 @@
 .tendence .box-two-content-two:hover{
     transform: scale(1.05);
 }
+
+.precommande .box-one-preco-img-two{
+    transition: all 0.3s;
+}
+.precommande .box-one-preco-img-two:hover{
+    transform: scale(1.05);
+}
+.precommande .box-one-preco-img-one{
+    transition: all 0.3s;
+}
+.precommande .box-one-preco-img-one:hover{
+    transform: scale(1.05);
+}
+
+.precommande .box-tow-preco-content-one{
+    transition: all 0.3s;
+}
+.precommande .box-tow-preco-content-one:hover{
+    transform: scale(1.05);
+}
+
+li a{
+   color: white;
+   transition: all 0.3s; 
+}
+li a:hover{
+    color: gray 
+ }
