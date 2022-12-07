@@ -103,4 +103,13 @@
     .avis-bg img{
         display: none;
     }
+    .avis-line{
+        width: 100%;
+    }
+    .avis-com img{
+        width: 80%;
+    }
+    .avis-box{
+        height: 50%;
+    }
 }
