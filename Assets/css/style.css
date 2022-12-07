@@ -434,13 +434,20 @@ li a{
     text-align: center;
     padding-top: 1%;
 }
-.instantlogo{
+.instantlogofooter{
     padding-bottom: 10%;
 }
 .oslogo{
     padding-top: 10%;
+    width: 60%;
 }
 .footer-contentcentertext{
     padding-top: 2%;
     padding-bottom: 2%;
+}
+.trustpilotfooter{
+    width: 30%;
+}
+.instantlogofooter{
+    width: 30%;
 }
