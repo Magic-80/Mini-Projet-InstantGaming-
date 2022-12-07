@@ -102,13 +102,26 @@
     .avis-bg img{
         display: none;
     }
-    .avis-line{
-        width: 100%;
-    }
     .avis-com img{
         width: 80%;
     }
     .avis-box{
         height: 50%;
+        padding-left: 3% ;
+    }
+    .footer-contentright{
+        width: 40%;
+    }
+    .footer-contentcenter{
+        width: 50%;
+    }
+    .footer-contentleft{
+        width: 20%;
+    }
+    .footer-contentleft img{
+        width: 60%;
+    }
+    .oslogo{
+        width: 100%;
     }
 }
