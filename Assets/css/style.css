@@ -64,6 +64,20 @@ li a{
     color: white;
 }
 
+
+.menu-navigation .text-menu-navigation-responzive-tendence{
+    display: none;
+}
+.menu-navigation .text-menu-navigation-responzive-preco{
+    display: none;
+}
+.menu-navigation .text-menu-navigation-responzive-ps{
+    display: none;
+}
+.menu-navigation .text-menu-navigation-responzive-support{
+    display: none;
+}
+
 .menu-navigation .pc{
     padding-left: 20px;
     display: flex;

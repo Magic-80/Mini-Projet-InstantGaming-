@@ -40,21 +40,41 @@
         border-radius: 63px;
     }
 
-    .menu-navigation .pc{
+    .menu-navigation .text-menu-navigation-pc {
         display: none;
     }
-    .menu-navigation .Ps4{
+    .menu-navigation .Ps4 .text-menu-navigation-ps4{
         display: none;
     }
-    .menu-navigation .xbox{
+    .menu-navigation .xbox .text-menu-navigation-xbox{
         display: none;
     }
-    .menu-navigation .switch{
+    .menu-navigation .switch .text-menu-navigation-switch{
         display: none;
     }
-    .menu-navigation .button-recherce{
+
+    
+    .menu-navigation img{
         display: none;
     }
+
+    
+
+    .menu-navigation .button-recherce {
+        display: none;
+    }
+
+    
+    .menu-navigation .text-menu-navigation-responzive-tendence{
+        display: block;
+    }
+    .menu-navigation .text-menu-navigation-responzive-preco{
+        display: block;
+    }
+    .menu-navigation .text-menu-navigation-responzive-support{
+        display: block;
+    }
+
 
     .title {
         padding-top: 250px;
