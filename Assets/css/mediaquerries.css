@@ -12,6 +12,7 @@
         display: none;
     }
 
+
     .logo-support {
         display: flex;
         flex-direction: row;
@@ -37,6 +38,22 @@
         background: rgba(39, 39, 39, 0.6);
         backdrop-filter: blur(12px);
         border-radius: 63px;
+    }
+
+    .menu-navigation .pc{
+        display: none;
+    }
+    .menu-navigation .Ps4{
+        display: none;
+    }
+    .menu-navigation .xbox{
+        display: none;
+    }
+    .menu-navigation .switch{
+        display: none;
+    }
+    .menu-navigation .button-recherce{
+        display: none;
     }
 
     .title {
@@ -77,6 +94,7 @@
         width: 100%;
         padding-left: 5px;
         padding-bottom: 20px;
+
     }
 
     .tendence .box-one img{

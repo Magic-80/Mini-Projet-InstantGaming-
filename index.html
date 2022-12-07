@@ -13,7 +13,7 @@
 
     <!------------- Header --------------------->
 
-    <header class="header">   
+    <header class="header">
         <nav class="nav-bar">
 
           <div class="logo-instant-gaming">
@@ -23,10 +23,10 @@
          
         </div>
             <ul>
-                <li><a href="">Tendances</a></li>
+                <li><a href="#tendence">Tendances</a></li>
                 <li><a href="">Précommandes</a></li>
                 <li><a href="">Prochaine sorties</a></li>
-                <li><a href="">Support</a></li>
+                <li><a href="#support">Support</a></li>
             </ul>
 
             <div class="logo-support">
@@ -40,9 +40,25 @@
         </nav>
 
         <div class="menu-navigation">
-          <div> <p>Tendances</p> </div>
-          <div> <p>Précommandes</p> </div>
-          <div> <p>Support</p> </div>
+          <div class="pc"> 
+            <img src="/Assets/img/Icon/logo-pc.png" alt="" width="60%">
+             <p>PC</p>
+            </div>
+          <div class="Ps4">
+            <img src="/Assets/img/Icon/Logo-Ps4.png" alt="" width="60%"> 
+            <p>PlayStation</p> 
+          </div>
+          <div class="xbox">
+            <img src="/Assets/img/Icon/Logo-xbox.png" alt="" width="60%"> 
+            <p>Xbox</p> 
+          </div>
+          <div class="switch">
+            <img src="/Assets/img/Icon/Logo Switchpng.png" alt="" width="60%"> 
+            <p>Switch</p>
+          </div>
+          <div class="button-recherce"> 
+            <img src="/Assets/img/Icon/bouton recherche.png" alt="">
+          </div>
         </div> 
 
         <div class="title">
@@ -50,7 +66,7 @@
         </div>
         <div class="prix">
           <div> <img src="/Assets/img/back-promo.png" alt=""></div>
-          <div><p>50€</p></div> 
+          <div><p>51.45€</p></div> 
         </div>
 
     </header>
@@ -61,23 +77,25 @@
 
         <!------------- Tendence --------------------->
 
-        <section class="tendence">
-            <div class="texte">
+        <section class="tendence" id="tendence">
+            <div class="texte-tendence">
                 <p>Tendances</p>
             </div>
 
-
             <div class="box">
               <div class="box-one">
+               
                 <img src="/Assets/img/marvel-s-spider-man-miles-morales-cover.png" alt="" width="80%">
                   <p class="title-box-one">Marvel spiderman</p>
               </div>
               
               <div class="box-two">
-                <div class="box-tow-content">
-                  <img src="/Assets/img/Evil west.png" alt="" width="90%">
+                <div class="box-tow-content-one">
+                  <img src="/Assets/img/Evil west.png" alt="" width="80%">
                   <p class="title-box-two-img-one">Evil West</p>
-                  <img src="/Assets/img/Evil west.png" alt="" width="90%">
+                </div>
+                <div class="box-two-content-two">
+                  <img src="/Assets/img/Evil west.png" alt="" width="80%">
                   <p class="title-box-two-img-two">Mount&BladeII</p>
                 </div>
               </div>
@@ -92,33 +110,50 @@
 
             <div class="punchline-content-1">
               <div class="punchline-content-logo-1">
-                <img src="/Assets/img/nuage.png" alt="">
-                <p>Ultra rapide</p>
+                <img src="/Assets/img/Ultra-rapide.png" alt="">
               </div>
             </div>
 
             <div class="punchline-content-2">
               <div class="punchline-content-logo-2">
-                <img src="/Assets/img/logo-vector-fialble.png" alt="">
-                <p>Fiable et sûr</p>
+                <img src="/Assets/img/Fiable et sûr.png" alt="">
               </div>
             </div>
 
             <div class="punchline-content-3">
               <div class="punchline-content-logo-3">
-                <img src="/Assets/img/Vector-message.png" alt="">
-                <p>Service cilent</p>
+                <img src="/Assets/img/ServiceClient.png" alt="">
               </div>
-
-
-              <div class="punchline-content-4">
-                <div class="punchline-content-logo-4">
-                  <img src="/Assets/img/logo-truspilot.png" alt="">
-                </div>
 
           </div>
         </section>
 
+
+        <section class="precommande">
+          <div class="texte-preco">
+            <p>Précommande</p>
+        </div>
+
+          <div class="box-preco">
+            <div class="box-two-preco">
+              <div class="box-tow-preco-content-one">
+                <img src="/Assets/img/Evil west.png" alt="" width="80%">
+                <p class="title-box-two-img-one">Evil West</p>
+              </div>
+              <div class="box-two-preco-content-two">
+                <img src="/Assets/img/Evil west.png" alt="" width="80%">
+                <p class="title-box-two-img-two">Mount&BladeII</p>
+              </div>
+
+            <div class="box-preco-one">
+              <img src="/Assets/img/marvel-s-spider-man-miles-morales-cover.png" alt="" width="80%">
+                <p class="title-box-one">Marvel spiderman</p>
+            </div>
+            
+            </div>
+
+          </div>
+        </section>
 
     <!--Partie Avis-->
     <div class="avis-bg">
@@ -195,11 +230,11 @@
 
 
      <!--Partie Footer-->
-     <div class="footer">
+     <div class="footer" id="support">
       <div class="footer-content">
         <div class="footer-contentleft">
-          <img src="Assets/img/instantgaminglogo.png" class="instantlogo" width="20%">
-          <img src="Assets/img/trustpilot.png" width="20%">
+          <img src="Assets/img/instantgaminglogo.png" class="instantlogo" width="30%">
+          <img src="Assets/img/trustpilot.png" width="30%">
         </div>
         <div class="footer-contentcenter">
           <p class="footer-contentcentertext">Les conditions de vente</p>

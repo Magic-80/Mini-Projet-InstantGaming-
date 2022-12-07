@@ -1,14 +1,21 @@
-.tendence .box-one {
+.tendence .box-one{
     transition: all 0.3s;
 }
 .tendence .box-one:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-.tendence .box-two{
+.tendence .box-tow-content-one{
     transition: all 0.3s;
 }
 
-.tendence .box-two:hover {
-    transform: scale(1.1);
+.tendence .box-two-content-one:hover{
+    transform: scale(1.05);
+}
+.tendence .box-two-content-two{
+    transition: all 0.3s;
+}
+
+.tendence .box-two-content-two:hover{
+    transform: scale(1.05);
 }
